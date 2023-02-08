@@ -1,0 +1,42 @@
+{
+  "missionSteps": {
+    "title": "Mission steps",
+    "tooltip": "Displays the steps to be executed by the robot in the current mission.",
+    "columns": {
+      "id":{
+        "name": "Id",
+        "tooltip": "ID of the step executed. Step IDs are numbered in order."
+      },
+      "stepName":{
+        "name": "Step Name",
+        "tooltip": "Name of the step executed by the robot."
+      },
+      "payload":{
+        "name": "Payload",
+        "tooltip": ""
+      },
+      "userData":{
+        "name": "User Data",
+        "tooltip": ""
+      }
+    }
+  },
+  "missionQueue": {
+    "title": "Mission queue",
+    "tooltip": "Displays the list of missions to be executed by the robot, including the current mission.",
+    "columns": {
+      "id":{
+        "name": "Id",
+        "tooltip": "The ID of the order received."
+      },
+      "order":{
+        "name": "Order",
+        "tooltip": "The number of the order being executed. The number 0 relates to the current mission."
+      },
+      "stepCount":{
+        "name": "Step Count",
+        "tooltip": "The number of steps in the order."
+      }
+    }
+  }
+}

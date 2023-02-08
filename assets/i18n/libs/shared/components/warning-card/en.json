@@ -1,0 +1,10 @@
+{
+  "tooltip": "More Info",
+  "title": "Warning!",
+  "dialog": {
+    "subtitle": "Component : {{value}}",
+    "description": "Description : {{value}}",
+    "proposedSolution": "Proposed Solution : {{value}}"
+  }
+
+}

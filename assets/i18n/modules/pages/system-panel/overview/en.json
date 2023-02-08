@@ -1,0 +1,35 @@
+{
+  "batteryCards": {
+    "title": "Battery",
+    "cards": {
+      "stateOfCharge": {
+        "title": "State of charge",
+        "tooltip": "Displays the current battery percentage on the robot. When the battery reaches 25%, the robot will automatically shut down to prevent any damage from sudden shutdowns."
+      },
+      "voltage": {
+        "title": "Voltage",
+        "tooltip": "Shows the battery voltage in Volts (V). During normal operation, the battery voltage will range between 49.2V and 38.4V."
+      },
+      "current": {
+        "title": "Current",
+        "tooltip": "Shows the battery current in Ampers (A). During normal operation, the battery current will range between 60A and -80A."
+      }
+    }
+  },
+  "diskGraphs": {
+    "title": "Disk",
+    "graphs": {
+      "diskUsage": {
+        "title": "Disk usage",
+        "tooltip": "Shows the amount of space used on the robot’s internal storage."
+      },
+      "ssdUsage": {
+        "title": "SSD usage",
+        "tooltip": "Shows the amount of space used on the robot’s SSD."
+      }
+    }
+  },
+  "errors": {
+    "title": "Errors"
+  }
+}

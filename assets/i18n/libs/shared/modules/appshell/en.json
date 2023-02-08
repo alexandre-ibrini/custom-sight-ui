@@ -1,0 +1,96 @@
+{
+  "pages": {
+    "systemPanel": {
+      "pageName": "System panel",
+      "tooltip": "System panel",
+      "tabs": {
+        "overview": "Overview",
+        "controls": "Controls",
+        "brakeTest": "Brake test",
+        "mission": "Mission"
+      }
+    },
+    "persistentParams": {
+      "pageName": "Persistent parameters",
+      "tooltip": "Persistent parameters",
+      "tabs": {
+        "params": "Params"
+      }
+    },
+    "logs": {
+      "pageName": "Logs",
+      "tooltip": "Logs",
+      "tabs": {
+        "logs": "Logs",
+        "ethercat": "Ethercat"
+      }
+    },
+    "brainSafety": {
+      "pageName": "Brain safety",
+      "tooltip": "Brain safety",
+      "tabs": {
+        "safety": "Safety"
+      }
+    },
+    "viewer": {
+      "pageName": "Viewer",
+      "tooltip": "Viewer",
+      "tabs": {
+        "lidar": "Lidar",
+        "turntable": "Turntable",
+        "dolly": "Dolly"
+      }
+    },
+    "versioning": {
+      "pageName": "Versioning",
+      "tooltip": "Versioning",
+      "tabs": {
+        "versioning": "Versioning"
+      }
+    },
+    "provisioning": {
+      "pageName": "Provisioning",
+      "tooltip": "Provisioning",
+      "tabs": {
+        "networking": "Networking"
+      }
+    },
+    "remoteControl": {
+      "pageName": "Remote control",
+      "tooltip": "Remote control",
+      "tabs": {
+        "remote": "Remote"
+      }
+    },
+    "users": {
+      "pageName": "Users",
+      "tooltip": "Users",
+      "tabs": {
+        "users": "Users"
+      }
+    },
+    "account": {
+      "pageName": "My account",
+      "tooltip": "My account",
+      "tabs": {
+        "account": "Account"
+      }
+    },
+    "sight": {
+      "pageName": "Sight",
+      "tooltip": "Sight",
+      "tabs": {
+        "sight": "Sight"
+      }
+    },
+    "logout": {
+      "pageName": "Logout",
+      "tooltip": "Logout"
+    }
+  },
+  "navbar": {
+    "brainState": {
+      "tooltip": "This displays the current status of the robot’s brain. If the robot is in IDLE, it means that it is not executing any mission."
+    }
+  }
+}

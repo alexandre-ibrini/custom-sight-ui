@@ -1,0 +1,40 @@
+{
+  "title": "2D Viewer",
+  "map": {
+    "controls": {
+      "screenshot": {
+        "tooltip": "Take a screenshot of the current view"
+      },
+      "fullscreen": {
+        "tooltip": "Toggle fullscreen"
+      }
+    }
+  },
+  "group": {
+    "front": {
+      "name": "Front"
+    },
+    "rear": {
+      "name": "Rear"
+    }
+  },
+  "data": {
+    "point": {
+      "name": "Beam endpoints"
+    },
+    "line": {
+      "name": "Beam lines"
+    }
+  },
+  "style": {
+    "opacity": {
+      "name": "Opacity"
+    },
+    "width": {
+      "name": "Width"
+    }
+  }
+}
+
+
+

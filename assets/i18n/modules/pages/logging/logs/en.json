@@ -1,0 +1,12 @@
+{
+  "header": {
+    "iconsView": "Icons view",
+    "listView": "List view"
+  },
+  "content": {
+    "download": {
+      "tooltip": "Download the log folder/file locally."
+    }
+  }
+
+}

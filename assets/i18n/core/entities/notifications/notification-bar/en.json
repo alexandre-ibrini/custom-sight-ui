@@ -1,0 +1,41 @@
+{
+  "brakeTest": {
+    "brakeTestWarning": {
+      "content": "Only preform safety tests in safe conditions, ensure personal are clear."
+    }
+  },
+  "disconnection": {
+    "content": "The connection to the backend has been lost"
+  },
+  "remoteControl": {
+    "disconnectedRemoteControl": {
+      "content": "Virtual gamepad not connected, please press the connect button."
+    }
+  },
+  "persistentParams": {
+      "description": {
+        "initialText": "This page contains all the parameters in the application that are ",
+        "additionalText": " Persistent parameters are configuration options for the application. Such parameters include camera calibration values, lidar calibration values and so on. Persistent parameters do not reset after restarting the application, turning off the robot, or performing a release update.",
+        "buttonText": "persistent."
+      }
+  },
+  "2DViewer": {
+    "description": {
+      "initialText": "A bird eye view of what the robot is seeing with the front and read Lidar ",
+      "additionalText": " The colors of the beams refer to the reflectiveness of the surface hit by the beams. The more the color of the beam shifts toward red, the more reflective the surface. Beams and endpoints from both the front and rear scanners can be freely toggled on and off. The opacity and width of the beams and endpoints can also be adjusted to your preference.",
+      "buttonText": "scanners."
+    }
+  },
+  "logs": {
+    "description": {
+      "initialText": "All application logs can be accessed from this ",
+      "additionalText": " The output of the application can be accessible from the terminal_outputs folder. Dolly detection and charger detections are also available in the dolly_detection and charger_detection folders respectively.",
+      "buttonText": "page."
+    }
+  },
+  "ethercat": {
+    "errorDescription": "<strong>There is a disconnected wire between {{value1}} and {{value2}}</strong>",
+    "crcNotification": "<strong>{{value1}}</strong> corrupted CRC packets"
+  }
+
+}

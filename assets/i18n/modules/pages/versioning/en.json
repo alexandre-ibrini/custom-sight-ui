@@ -1,0 +1,33 @@
+{
+  "frontEndTable": {
+    "title": "Front-end versions",
+    "columns": {
+      "name": "Name",
+      "info": "Info"
+    },
+    "rows": {
+      "row1": {
+        "name": "Product"
+      },
+      "row2": {
+        "name": "Company"
+      },
+      "row3": {
+        "name": "Tag"
+      },
+      "row4": {
+        "name": "SHA"
+      },
+      "row5": {
+        "name": "Status"
+      }
+    }
+  },
+  "backEndTable": {
+    "title": "Back-end versions",
+    "columns": {
+      "name": "Name",
+      "info": "Info"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Safety stop",
+  "description": "Toggle the robot’s safety shields.",
+  "infoTooltip": "WARNING : Turning off the safety shields will result in only the Safety PLC being responsible for stopping the robot. This means that the robot will no longer have smooth deceleration  when faced with obstacles, but instead very strong and sudden braking.",
+  "slideTextDisabled": "Inactive",
+  "slideText": "Active",
+  "snackBar": {
+    "missionSuccess" : "Mission sent successfully",
+    "valueChangeSuccess": "Value changed successfully"
+  }
+}

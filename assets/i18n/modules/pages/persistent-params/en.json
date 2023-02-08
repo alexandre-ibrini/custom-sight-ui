@@ -1,0 +1,11 @@
+{
+  "search": {
+    "placeholder": "Search"
+  },
+  "buttons": {
+    "reload": {
+      "name": "Reload",
+      "tooltip": "Reloads the parameters to the last values submitted. This can be used to reset any changes before they are submitted."
+    }
+  }
+}

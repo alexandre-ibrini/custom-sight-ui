@@ -1,0 +1,51 @@
+{
+  "form": {
+    "displayName": "User information",
+    "fields": {
+      "field1": {
+        "displayName": "Username",
+        "placeholder": "Username"
+      },
+      "field2": {
+        "displayName": "Password",
+        "placeholder": "Password"
+      },
+      "field3": {
+        "displayName": "First name",
+        "placeholder": "First name"
+      },
+      "field4": {
+        "displayName": "Last name",
+        "placeholder": "Last name"
+      },
+      "field5": {
+        "displayName": "Email",
+        "placeholder": "Email"
+      },
+      "field6": {
+        "displayName": "Phone number",
+        "placeholder": "Phone number"
+      },
+      "field7": {
+        "displayName": "Address",
+        "placeholder": "Address"
+      },
+      "field8": {
+        "displayName": "Role",
+        "placeholder": "Role"
+      },
+      "field9": {
+        "displayName": "Date Created",
+        "placeholder": ""
+      },
+      "field10": {
+        "displayName": "Date modified",
+        "placeholder": ""
+      }
+    }
+  },
+  "buttons":{
+    "save": "Save",
+    "cancel": "Cancel"
+  }
+}

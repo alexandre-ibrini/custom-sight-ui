@@ -1,0 +1,32 @@
+{
+  "title": "Users Table",
+  "columns": {
+    "username": "Username",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "address": "Address",
+    "phoneNumber": "Phone number",
+    "createdDate": "Date created",
+    "modifiedDate": "Date modified",
+    "role": "Role"
+  },
+  "buttons": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "disabledStatus": {
+      "disable": "Disable",
+      "enable": "Enable"
+    }
+  },
+  "dialogs": {
+    "disableUser": {
+      "title": "Are you sure you want to disable {{userName}}?",
+      "description": "If you disable this user, he will no longer be able to login to the app."
+    },
+    "enableUser": {
+      "title": "Are you sure you want to enable {{userName}}?",
+      "description": "If you enable this user, he will have access to the app."
+    }
+  }
+}

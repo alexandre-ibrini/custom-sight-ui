@@ -1,0 +1,13 @@
+{
+  "buttons": {
+    "download": "Download",
+    "addUser": "Add user",
+    "reload": "Reload"
+  },
+  "payload": "Payload",
+  "userData": "UserData",
+  "tooltips": {
+    "expand": "Expand to see more info",
+    "clickToExpand": "Click to expand"
+  }
+}

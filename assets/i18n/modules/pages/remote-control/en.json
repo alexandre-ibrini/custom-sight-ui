@@ -1,0 +1,16 @@
+{
+  "buttons": {
+    "disconnect": "Disconnect",
+    "connect": "Connect",
+    "liftUp": "Lift up",
+    "liftDown": "Lift down",
+    "toggleCharge": "Toggle charge"
+  },
+  "velocity": {
+    "title": "Velocity",
+    "unit": "m/s"
+  },
+  "joystick": {
+    "title": "Joystick"
+  }
+}

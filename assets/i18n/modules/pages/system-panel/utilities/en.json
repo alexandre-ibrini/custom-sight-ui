@@ -1,0 +1,120 @@
+{
+  "state": {
+    "title": "Current state",
+    "tooltip": "This displays the current status of the robot’s brain. If the robot is in IDLE, it means that it is not executing any mission."
+  },
+  "actions": {
+    "dropLift": {
+      "title": "Drop lift",
+      "tooltip": "Send a mission to the robot to lower the lift."
+    },
+    "raiseLift":{
+      "title": "Raise lift",
+      "tooltip": "Send a mission to the robot to raise the lift. Please note that for the robot to lift up successfully, both magnetic sensors need to be engaged."
+    },
+    "stopCharging":{
+      "title": "Stop charging",
+      "tooltip": "Send a mission to the robot to stop charging."
+    },
+    "startCharging":{
+      "title": "Start charging",
+      "tooltip": "Send a mission to the robot to start charging. The robot needs to be properly placed on a charger for the mission to work. The charging will automatically stop once the robot is fully charged."
+    },
+    "acknowledgeError":{
+      "title": "Acknowledge error",
+      "tooltip": "Clear errors causing the logo to light with constant red and reinitialize the robot’s startup sequence."
+    },
+    "abortMission":{
+      "title": "Abort cockpit mission",
+      "tooltip": "Cancel any mission sent to the robot from the Cockpit. Any mission received by the robot from outside the cockpit is not affected by this."
+    },
+    "retryMission":{
+      "title": "Retry mission",
+      "tooltip": "Retry the last failed action from the mission. This only works when the robot has a failed mission."
+    }
+  },
+  "forms": {
+    "driveForm": {
+      "title": "Drive relative",
+      "description": "Command the robot to drive to the point with coordinates X, Y and Angle, according to the robot’s position.",
+      "tooltip": "E.g. A command with the coordinates (2,0,90) will make the robot drive 2 meters forward, and then rotate 90 degrees.",
+      "button": "Drive relative",
+      "fields": {
+        "field1": {
+          "fieldName": "Translation X axis (m)",
+          "placeholder": "Enter x coordinate"
+        },
+        "field2": {
+          "fieldName": "Translation Y axis (m)",
+          "placeholder": "Enter y coordinate"
+        },
+        "field3": {
+          "fieldName": "Rotation angle (deg)",
+          "placeholder": "Enter theta value"
+        }
+      }
+    },
+    "userForm": {
+      "title": "User defined location",
+      "description": "Command the robot to drive to the point with coordinates X, Y and Angle, according to the map’s reference frame.",
+      "tooltip": "E.g. Passing the coordinates X =12, Y=16 and Angle = 180 will make the robot drive to that exact point in the map.",
+      "button": "Go to location",
+      "fields": {
+        "field1": {
+          "fieldName": "Translation X axis (m)",
+          "placeholder": "Enter x coordinate"
+        },
+        "field2": {
+          "fieldName": "Translation Y axis (m)",
+          "placeholder": "Enter y coordinate"
+        },
+        "field3": {
+          "fieldName": "Rotation angle (deg)",
+          "placeholder": "Enter theta value"
+        }
+      }
+    },
+    "dollyLiftDropForm": {
+      "title": "Dolly lift to drop sequence",
+      "description": "Command the robot to dock under the dolly, lift it, drop it, and drive backwards for the distance specified under Distance (m). This sequence will be repeated for the repeat count specified. For the sequence to begin properly, the dolly needs to be visible to the robot. Please note that setting a value too high for the Distance, might cause the robot to end up too far away to detect the dolly for the next sequence.",
+      "button": "Initialize",
+      "fields": {
+        "field1": {
+          "fieldName": "Distance (m)",
+          "placeholder": "Enter distance value"
+        },
+        "field2": {
+          "fieldName": "Repeat count",
+          "placeholder": "Enter count value"
+        }
+      }
+    },
+    "manualActions": {
+      "title": "Send predefined steps",
+      "description": "Send frequently used steps to the robot.",
+      "actions": {
+        "action1": {
+          "name": "Dock to charging station",
+          "tooltip": "Command the robot to detect a charger  in front of it and dock to it."
+        },
+        "action2": {
+          "name": "Start charging manually",
+          "tooltip": "Command the robot to start the charging sequence. The robot needs to be properly placed on a charger."
+        },
+        "action3": {
+          "name": "Undock from charging station",
+          "tooltip": "Command the robot to stop charging, and to drive backwards, away from the charger. The robot will drive backwards for 2.4 meters."
+        },
+        "action4": {
+          "name": "Dock to dolly",
+          "tooltip": "Command the robot to dock under a dolly. The dolly needs to be visible from the robot’s point of view. (Camera)"
+        },
+        "action5": {
+          "name": "Dock to turntable",
+          "tooltip": "Command the robot to dock to  turntable. The shape needs to be visible from the robot’s front Lidar."
+        }
+      },
+      "send": "Send"
+    }
+  }
+}

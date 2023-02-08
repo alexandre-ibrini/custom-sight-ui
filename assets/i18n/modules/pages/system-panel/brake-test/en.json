@@ -1,0 +1,72 @@
+{
+  "staticBrakeTest": {
+    "title": "Static brake test",
+    "description": "Automatically performed on a <span> {{value}}hr</span> cycle.",
+    "tooltip": "This test activates the mechanical brakes and orders the robot to drive forward. The test succeeds if the brakes successfully stop the robot from moving.",
+    "slideText": "Enabled",
+    "formGroup": {
+      "field1": {
+        "placeholder": "Time Interval (h)",
+        "tooltip": "Time interval in hours at which the robot will attempt to automatically execute a static brake test."
+      },
+      "field2": {
+        "placeholder": "Error Time Threshold (h)",
+        "tooltip": "Maximum allowed time between static brake tests (in hours). If this time is exceeded without any brake tests, the robot reports an error that a brake test is required."
+      }
+    },
+    "startTest": " Start test",
+    "submit": " Submit"
+  },
+  "dynamicBrakeTest": {
+    "title": "Dynamic brake test",
+    "description": "Trigger manually to test brake function. ",
+    "tileTooltip": "A manual test for brakes. The test works by sending the robot forwards at the specified drive speed until it reaches an obstacle.",
+    "slideText": "Test mechanical brakes",
+    "tooltip": "Turning this on will disable the electric brakes on the robot. This means that the robot will not slowly decelerate, and instead will apply brakes at full force when met with an obstacle.",
+    "inputAction": {
+      "button": "Start test",
+      "inputPlaceholder": "Input drive speed"
+    }
+  },
+  "brakeTestHistory": {
+    "title": "Brake test history",
+    "tooltip": "Displays the history of executed static brake tests.",
+    "columns": {
+      "id": {
+        "name": "Id",
+        "tooltip": "The number of the test performed."
+      },
+      "cycle": {
+        "name": "Cycle",
+        "tooltip": "A cycle in a static brake test is the sequence of activating the brakes and driving against them. Each test consists of 3 cycles. A successful test should have a Cycle value of 3 because the sequence succeeded 3 times."
+      },
+      "result": {
+        "name": "Result"
+      },
+      "time": {
+        "name": "Time",
+        "tooltip": "Time of the execution of the static brake test."
+      },
+      "message": {
+        "name": "Message",
+        "tooltip": "Message displayed by the brake test in case of a failure."
+      },
+      "bmsMaxI": {
+        "name": "Bms Max I",
+        "tooltip": "Maximum value of the current in Amperes (A) drawn from the battery during the test. Knowing the battery consumption during the test helps in detecting problems in power usage."
+      },
+      "leftMaxI": {
+        "name": "Left Motor Max I",
+        "tooltip": "Maximum value of the current in Amperes (A) received by the left motor during the test."
+      },
+      "rightMaxI": {
+        "name": "Right Motor Max I",
+        "tooltip": "Maximum value of the current in Amperes (A) received by the right motor during the test."
+      }
+    },
+    "status": {
+      "success": "Success",
+      "failure": "failure"
+    }
+  }
+}

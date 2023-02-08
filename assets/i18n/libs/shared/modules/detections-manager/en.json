@@ -1,0 +1,15 @@
+{
+  "detectionViewer": {
+    "noImages": "No images available for this detection ! "
+  },
+  "detectionManagerHeader": {
+    "anotherDetection": "Choose another detection",
+    "subDetectionTitleText": "Trial {{index}} at {{time}}"
+  },
+  "subDetectionsManager": {
+    "title": " Detection Trials"
+  },
+  "detectionReportsManager": {
+    "title": "Detection Reports"
+  }
+}

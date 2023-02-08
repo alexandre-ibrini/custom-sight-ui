@@ -1,0 +1,72 @@
+{
+  "networkingFields": {
+    "deviceIdentity": {
+      "displayName": "Device Identity",
+      "fields": {
+        "field1": {
+          "displayName": "Hostname",
+          "placeholder": "Add your host"
+        }
+      }
+    },
+    "interfaces": {
+      "displayName": "Interfaces",
+      "tooltip": "Displays network information about the selected interface. To display information of an interface, please select an interface from the dropdown menu.",
+      "fields": {
+        "field1": {
+          "displayName": "Hostname",
+          "placeholder": "Add your host"
+        },
+        "field2": {
+          "displayName": "IP address",
+          "placeholder": "Add your Ip address"
+        },
+        "field3": {
+          "displayName": "Mask",
+          "placeholder": "Add your mask"
+        },
+        "field4": {
+          "displayName": "Gateway",
+          "placeholder": "Add your gateway"
+        },
+        "field5": {
+          "displayName": "Interfaces",
+          "placeholder": ""
+        }
+      }
+    }
+  },
+  "ntpConfiguration": {
+    "displayName": "NTP configuration",
+    "tooltip": "Add a new NTP (Network Time Protocol) server address to be used.",
+    "fields": {
+      "field1": {
+        "displayName": "New NTP"
+      },
+      "field2": {
+        "displayName": "New fallback"
+      }
+    }
+  },
+  "dnsConfiguration": {
+    "displayName": "DNS configuration",
+    "tooltip": "Add a new DNS (Domain Name System) server address to be used.",
+    "fields": {
+      "field1": {
+        "displayName": "New DNS"
+      },
+      "field2": {
+        "displayName": "New fallback"
+      }
+    }
+  },
+  "buttons": {
+    "save": "Save Changes",
+    "cancel": " Cancel Changes"
+  },
+  "errorMessages": {
+    "patternError": "Invalid IP address format, address should be between 0.0.0.0 and 255.255.255.255",
+    "duplicateError": "Duplicate entry",
+    "emptyError": "Value cannot be empty"
+  }
+}

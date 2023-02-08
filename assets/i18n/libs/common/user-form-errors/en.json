@@ -1,0 +1,12 @@
+{
+  "form-errors": {
+    "username": "Username already taken",
+    "firstName": "First name is required",
+    "password": "Password should be at least 8 characters long and contain a number and a special character",
+    "lastName": "Last name is required",
+    "email": "Invalid email",
+    "phoneNumber": "Invalid phone number format",
+    "address": "Address is required",
+    "role": "Role is required or is invalid"
+  }
+}
