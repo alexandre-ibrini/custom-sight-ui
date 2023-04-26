@@ -37,7 +37,7 @@
       "tooltip": "Viewer",
       "tabs": {
         "lidar": "Lidar",
-        "turntable": "Turntable",
+        "turntable": "Template",
         "dolly": "Dolly"
       }
     },
